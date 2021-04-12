@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;      
+}
+
+/* ============= background ============= */
+.background-image {
+  background-repeat:no-repeat;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+
+  display: block;
+  background-image:url(./assets/money.jpg);
+  height: 100vh;
+  width: 100vw;
+  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+
+}
+
+
+/* ============= header ============= */
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffee0010; 
+  }
+
+  .alura-logo {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 50px;
+    background-color: #ffee0010; 
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 25px;
+    background-color: #ffee0010; 
+  }
+
+  /* ============= Input ============= */
+  .form-input {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .brasil {
+    margin: 5px;
+  }
+
+
+  /* ============= main ============= */
+
+  .main {
+    background-image: url('https://i.pinimg.com/originals/34/55/ea/3455ea17f8301fdbf7927ce662697a1d.jpg');
+    background-size: cover;
+    background-color: #fada06;
+    max-width: 500px;
+    text-align: center;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+    box-shadow: 0px 0px 15px 5px #000000;
+  }
+
+ .valor {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #ffffff;
+   margin: 5px;
+   border-radius: 5px;
+ }
+
+ .cifrao {
+   color: #000000;
+   font-weight: 900;
+   font-size: 24px;
+   margin-right: 4px;
+ }
+
+img {
+   width: 40px;
+ }
+  
+/* ============= table ============= */
+.table {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffee0010;
+}
+
+/* ============= footer ============= */
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffee0010;
+  }
+  
+  .page-footer {
+    width: 200px;
+    margin: 0;
+    border: 0;
+    padding: 0;    
+  }
+  
+  .dev {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+
+  
