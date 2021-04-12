@@ -8,3 +8,5 @@ Aplicação desenvolvida na aula 01 da ImersãoDev da [Alura](https://www.alura.
 <h2>Converts Real (Brazilian currency) into Dollars, Euros, British Pounds and Yen.</h2>
 Application desenvolved in the first class from ImersãoDev from [Alura](https://www.alura.com.br/)
 
+![Screenshot](CurrenciesConverter.png)
+
